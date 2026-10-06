@@ -4,13 +4,13 @@
 
 **An action-packed, browser-based missile defense game set over BRAC University.**
 
-[![Live Game](https://img.shields.io/badge/Play%20Now-Live%20Demo-brightgreen?style=for-the-badge&logo=github)](https://nimasnawfas.github.io/BRACU_Iron_Dome/){:target="_blank"}
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20With-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://nimasnawfas.github.io/BRACU_Iron_Dome/){:target="_blank"}
-[![Platform](https://img.shields.io/badge/Platform-Web%20Browser-orange?style=for-the-badge)](https://nimasnawfas.github.io/BRACU_Iron_Dome/){:target="_blank"}
+[![Live Game](https://img.shields.io/badge/Play%20Now-Live%20Demo-brightgreen?style=for-the-badge&logo=github)](https://nimasnawfas.github.io/BRACU_Iron_Dome/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20With-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://nimasnawfas.github.io/BRACU_Iron_Dome/)
+[![Platform](https://img.shields.io/badge/Platform-Web%20Browser-orange?style=for-the-badge)](https://nimasnawfas.github.io/BRACU_Iron_Dome/)
 
 ---
 
-### 🚀 <a href="https://nimasnawfas.github.io/BRACU_Iron_Dome/" target="_blank">Click Here to Play Live Game</a>
+### 🚀 [Click Here to Play Live Game](https://nimasnawfas.github.io/BRACU_Iron_Dome/)
 
 </div>
 
