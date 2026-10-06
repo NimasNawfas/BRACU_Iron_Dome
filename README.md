@@ -1,317 +1,81 @@
+<div align="center">
+
 # 🛡️ BRACU Iron Dome
 
-**BRACU Iron Dome** is a browser-based missile defense game created for the **BRAC University Computer Club (BUCC) Club Fair**.
+**An action-packed, browser-based missile defense game built for the BRAC University Computer Club (BUCC) Club Fair.**
 
-The player takes the role of a missile-defense operator whose objective is to protect **BRAC University** from incoming missiles. The game becomes progressively more difficult as the player advances through different levels.
+[![Live Demo](https://img.shields.io/badge/Play_Now-Live_Game-2ea44f?style=for-the-badge&logo=github)](https://nimasnawfas.github.io/BRACU_Iron_Dome/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#-tech-stack)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#-tech-stack)
+[![Canvas API](https://img.shields.io/badge/Canvas_API-00599C?style=for-the-badge&logo=html5&logoColor=white)](#-tech-stack)
+[![License](https://img.shields.io/badge/License-BUCC-blue?style=for-the-badge)](#-license)
 
----
+<br />
 
-## 🌐 Play the Game
-
-🎮 **Live Game:**
-https://nimasnawfas.github.io/BRACU_Iron_Dome/
-
-The game is hosted using **GitHub Pages** and can be played directly in a modern web browser.
-
----
-
-## 🎮 Game Overview
-
-In **BRACU Iron Dome**, missiles are launched toward BRAC University from the sky.
-
-The player must:
-
-* Detect incoming missiles
-* Launch interceptors to destroy them
-* Protect the university buildings
-* Manage limited ammunition
-* React quickly to increasingly difficult attacks
-* Achieve the highest possible score
-
-The game features multiple levels, increasing missile activity, explosions, combos, and a final challenging stage.
+[🎮 Play the Game](https://nimasnawfas.github.io/BRACU_Iron_Dome/) · [🐛 Report Bug](https://github.com/NimasNawfas/BRACU_Iron_Dome/issues) · [💡 Request Feature](https://github.com/NimasNawfas/BRACU_Iron_Dome/issues)
 
 ---
 
-## 🚀 Levels
+</div>
 
-### 🟢 Level 1 — WARM-UP
+## 📌 Overview
 
-The first level introduces the player to the basic gameplay.
+**BRACU Iron Dome** puts you in command of BRAC University’s tactical missile defense system. Your objective is simple yet challenging: intercept waves of incoming air strikes, manage critical interceptor ammunition, defend campus infrastructure, and survive increasingly relentless attacks.
 
-* Fewer incoming missiles
-* Lower difficulty
-* Gives the player time to understand the controls
-* Focuses on learning how to intercept missiles
-
-### 🟠 Level 2 — BARRAGE
-
-The attack becomes more intense.
-
-* More missiles appear
-* Missiles arrive more frequently
-* Players need faster reactions
-* Chain combos become more important
-
-### 🔴 Level 3 — FINAL STRIKE
-
-The final level is the most difficult stage.
-
-* Heavy missile attacks
-* Faster gameplay
-* Greater pressure on the player
-* Special/mega missile warnings
-* Requires effective use of interceptors and ammunition
+> 🏆 **Designed for BUCC Club Fair**: Engineered entirely with native front-end web technologies requiring zero installation or backend setup—just open and play!
 
 ---
 
-## 🎯 Objective
+## ✨ Key Features
 
-The main objective is simple:
+* **🎯 Precision Interception:** Real-time trajectory prediction and dynamic targeting using HTML5 Canvas graphics.
+* **💥 Particle Explosions & Combos:** Chain multiple missile interceptions together to score massive multiplier bonuses.
+* **⚠️ Mega Missile Threat Warnings:** High-priority visual alerts warning you of fast-moving, high-damage ordnance.
+* **🛡️ Campus Health & Dome Shield:** Manage your localized air defense perimeter and keep building damage to a minimum.
+* **🔋 Tactical Reload Mechanics:** Strategic ammunition management requires balancing firepower with firing delays.
+* **🥇 Device-Local Leaderboard:** Automatically tracks and saves high scores locally using browser `localStorage`.
 
-> **Defend BRAC University from incoming missiles for as long as possible.**
+---
 
-Destroy missiles before they reach the university.
+## 🚀 Game Levels
 
-The player must balance:
-
-* Accuracy
-* Reaction speed
-* Ammunition
-* Building health
-* Interceptor timing
-
-The longer the player survives and the more missiles they destroy, the higher the score.
+| Level | Name | Threat Level | Gameplay Mechanics |
+| :---: | :--- | :---: | :--- |
+| **01** | **Warm-Up** | 🟢 Low | Slow single-missile trajectories to master basic interception timing. |
+| **02** | **Barrage** | 🟠 Medium | Faster strike rates, multiple simultaneous targets, and combo scoring. |
+| **03** | **Final Strike** | 🔴 Extreme | High-density missile surges, fast strikes, and specialized **Mega Missiles**. |
 
 ---
 
 ## 🕹️ Controls
 
-The game supports mouse and touch interaction.
+<div align="center">
 
-### 🖱️ Mouse
+| Input Method | Action |
+| :--- | :--- |
+| **🖱️ Mouse Click** | Aim crosshairs & launch interceptors |
+| **📱 Tap Screen** | Mobile-friendly point-and-strike targeting |
+| **⏸️ Game Controls** | On-screen toggles for **Pause**, **Restart**, and **Audio** |
 
-* Move/click on the game area to target an incoming missile.
-* Click to launch an interceptor.
-
-### 📱 Touch
-
-* Tap the screen to select a target and launch an interceptor.
-
-### 🎛️ Game Controls
-
-* **Pause/Play** — Pause or resume the game.
-* **Restart** — Restart the current game.
-* **Sound** — Turn game sound effects on or off.
+</div>
 
 ---
 
-## 💥 Gameplay Features
+## 🛠️ Tech Stack
 
-### 🚀 Missile Interception
-
-Incoming missiles can be destroyed by launching interceptors toward them.
-
-### 💣 Explosions
-
-Successful interceptions create explosions and visual particle effects.
-
-### 🔗 Chain Combos
-
-Destroying multiple missiles successfully can create chain combos and increase the player's score.
-
-### ⚠️ Mega Missile Warning
-
-Some attacks include a warning for a powerful/mega missile, requiring the player to react quickly.
-
-### 🏢 Building Health
-
-The university has limited health.
-
-If too many missiles reach the university, its health decreases.
-
-The player must prevent the health from reaching zero.
-
-### 🛡️ Dome Shield
-
-The game includes a defensive dome/shield representing the missile-defense system protecting the university.
-
-### 🔋 Ammunition and Reloading
-
-Interceptors use ammunition.
-
-The player needs to manage available ammunition and reload when necessary.
-
-### 🔊 Sound
-
-The game includes sound effects that can be enabled or disabled using the sound control.
+* **Structure:** HTML5
+* **Styling:** CSS3 (Modern Flexbox/Grid UI)
+* **Game Logic:** Pure Vanilla JavaScript (ES6+)
+* **Rendering:** HTML5 Canvas API
+* **Data Persistence:** Web Storage API (`localStorage`)
 
 ---
 
-## 🏆 Scoring
+## ⚡ Quick Start
 
-Players earn points by successfully intercepting incoming missiles.
+No compilers, Node packages, or backend servers (`Flask`, `Python`, etc.) required!
 
-Additional scoring can come from:
-
-* Destroying multiple missiles in a chain
-* Maintaining combos
-* Successfully surviving difficult attacks
-* Completing higher levels
-
-The goal is to achieve the highest possible score.
-
----
-
-## 🥇 Local Leaderboard
-
-The game includes a local leaderboard using the browser's **localStorage**.
-
-This allows players to save their scores locally on their device/browser.
-
-The leaderboard does not require:
-
-* A database
-* A server
-* User accounts
-
-Scores are stored locally in the player's browser.
-
----
-
-## 🔊 Sound System
-
-The game includes sound effects to make the gameplay more interactive.
-
-Players can toggle the sound on or off using the sound button.
-
----
-
-## 💻 Technologies Used
-
-The project is built using basic web technologies:
-
-* **HTML5** — Game structure
-* **CSS3** — User interface and visual styling
-* **JavaScript** — Game logic, controls, animations, scoring, missiles, explosions, and gameplay
-* **HTML Canvas** — Rendering the game
-* **LocalStorage** — Local leaderboard/high-score storage
-
-No backend server or database is required.
-
----
-
-## 📁 Project Structure
-
-The project is intentionally simple and can be run as a standalone web page.
-
-```text
-BRACU_Iron_Dome/
-│
-├── index.html
-└── README.md
-```
-
-The main game is contained inside `index.html`.
-
----
-
-## ▶️ Running the Game Locally
-
-You do not need to install Python, Flask, Node.js, MySQL, or any other backend software.
-
-### Option 1 — Open Directly
-
-1. Download or clone the repository.
-2. Open the project folder.
-3. Double-click `index.html`.
-4. The game will open in your web browser.
-
-### Option 2 — VS Code
-
-1. Open the project folder in VS Code.
-2. Open `index.html`.
-3. Run the file using a browser or Live Server.
-4. Start playing.
-
----
-
-## 🌐 GitHub Pages Deployment
-
-The game is hosted using **GitHub Pages** because it is a static HTML/CSS/JavaScript project.
-
-### GitHub Repository
-
-**Repository:**
-https://github.com/NimasNawfas/BRACU_Iron_Dome
-
-### Live Website
-
-**Play BRACU Iron Dome:**
-https://nimasnawfas.github.io/BRACU_Iron_Dome/
-
-### Deployment Configuration
-
-The website is deployed from:
-
-* **Branch:** `main`
-* **Folder:** `/ (root)`
-* **Entry file:** `index.html`
-
-To deploy or update the game:
-
-1. Upload or replace `index.html`.
-2. Commit the changes to the `main` branch.
-3. GitHub Pages builds and publishes the updated version.
-4. Open the live website to play the latest version.
-
----
-
-## 🎪 Project Purpose
-
-This project was developed as a fun and interactive game for the:
-
-**BRAC University Computer Club (BUCC) Club Fair**
-
-The purpose was to create an engaging browser game that visitors could quickly understand and play while incorporating a BRAC University-themed environment.
-
----
-
-## 🧠 Learning Outcomes
-
-Through this project, the following concepts were practiced:
-
-* HTML structure
-* CSS styling
-* JavaScript programming
-* Canvas-based graphics
-* Game loops
-* Collision/interception logic
-* Mouse and touch events
-* Animation
-* Particle effects
-* Score management
-* LocalStorage
-* Responsive browser-based interaction
-* GitHub repository management
-* GitHub Pages deployment
-
----
-
-## 📱 Browser Compatibility
-
-The game is designed to run in modern web browsers that support HTML5 Canvas and JavaScript.
-
-Recommended browsers include:
-
-* Google Chrome
-* Microsoft Edge
-* Mozilla Firefox
-* Safari
-
----
-
-## 📜 License
-
-This project was created as a student/club-fair project for educational and entertainment purposes.
-
-© BRAC University Computer Club (BUCC)
+### Option 1: Direct Play
+1. Clone or download the repository:
+   ```bash
+   git clone [https://github.com/NimasNawfas/BRACU_Iron_Dome.git](https://github.com/NimasNawfas/BRACU_Iron_Dome.git)
